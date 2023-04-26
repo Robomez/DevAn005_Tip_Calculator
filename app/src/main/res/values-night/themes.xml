@@ -2,6 +2,12 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.DevAn005_Tip_Calculator" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/green_light</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorSecondary">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
     </style>
 </resources>

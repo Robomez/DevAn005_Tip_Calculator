@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DevAn005_Tip_Calculator</string>
+    <string name="app_name">TipTime</string>
     <string name="cost_of_service">Cost of Service</string>
     <string name="service_question">How was the service?</string>
     <string name="amazing_20">Amazing (20%)</string>
@@ -8,4 +8,7 @@
     <string name="round_up_tip">Round up tip?</string>
     <string name="calculate_button">Calculate</string>
     <string name="tip_amount">Tip amount: %s</string>
+
+    <string name="primary_color">Primary color</string>
+    <string name="secondary_color">Secondary color</string>
 </resources>
