@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.DevAn005_Tip_Calculator" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
@@ -6,11 +6,16 @@
         <item name="colorPrimaryVariant">@color/green_dark</item>
         <item name="colorOnPrimary">@color/white</item>
 
-
         <item name="colorSecondary">@color/blue</item>
         <item name="colorSecondaryVariant">@color/blue_dark</item>
         <item name="colorOnSecondary">@color/black</item>
+
+        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>
+        <item name="radioButtonStyle">@style/Widget.TipTime.CompoundButton.RadioButton</item>
+        <item name="switchStyle">@style/Widget.TipTime.CompoundButton.Switch</item>
     </style>
 
-    <style name="Theme.DevAn005_Tip_Calculator" parent="Base.Theme.DevAn005_Tip_Calculator" />
+    <style name="Theme.DevAn005_Tip_Calculator" parent="Base.Theme.DevAn005_Tip_Calculator">
+
+    </style>
 </resources>
